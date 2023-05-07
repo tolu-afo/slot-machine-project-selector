@@ -1,7 +1,7 @@
 # slot-machine-project-selector
 ## Idea: Slot Machine Project Generator
 
-## Language: JavaScript
+## Language: JavaScript (React)
 
 ## Constraint: No Loops (this includes, map function, forEach, and other looping functions)
 
