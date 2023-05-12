@@ -27,30 +27,30 @@ const shuffle = (array) => {
 }
 
 const ideas = [
-    'idea 1',
-    'idea 2',
-    'idea 3',
-    'idea 4',
-    'idea 5',
-    'idea 6',
+    'RPG Snake Game',
+    '1v1 Programming',
+    'Twitch Chat Bot',
+    'Make Chess',
+    'Weather App',
+    'Make a Music Player',
 ]
 
 const languages = [
-    'language 1',
-    'language 2',
-    'language 3',
-    'language 4',
-    'language 5',
-    'language 6',
+    'Python',
+    'Rust',
+    'Carbon',
+    'TypeScript',
+    'Elixir',
+    'Java',
 ]
 
 const constraints = [
-    'constraint 1',
-    'constraint 2',
-    'constraint 3',
-    'constraint 4',
-    'constraint 5',
-    'constraint 6',
+    'Screen Upside Down',
+    'Every variable is the same word with a number attached',
+    'One File',
+    'No If/Else Statements',
+    'Simple Data Structures Only',
+    'No Imports',
 ]
 
 export default function ProjectGenerator () {
@@ -65,8 +65,8 @@ export default function ProjectGenerator () {
                     <SlotWidget key={1} type={"languages"} items={shuffle(languages)} canSelect={canSelect} speed={-1000}/>
                     <SlotWidget key={2} type={"constraints"} items={shuffle(constraints)} canSelect={canSelect} speed={1100}/>
                 </div>
-                <div id="slot-top" className="absolute bg-red-500 mx-auto w-1/2 h-[25rem] top-[8rem] left-[46vh]"></div>
-                <div id="slot-bottom" className="absolute bg-red-500 mx-auto w-1/2 h-[25rem] top-[44rem] left-[46vh]"></div>
+                <div id="slot-top" className="absolute bg-red-500 mx-auto w-screen h-[25rem] top-[8rem]"></div>
+                <div id="slot-bottom" className="absolute bg-red-500 mx-auto w-screen h-[25rem] top-[44rem]"></div>
                 {!canSelect && <button onClick={()=>setCanSelect(!canSelect)} className="absolute font-bold text-3xl top-[20rem] left-[44vw] bg-gray-400 p-2 hover:brightness-125 duration-300 ease-in-out">Get a Project!</button>}
             </div>
         </>

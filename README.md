@@ -11,3 +11,5 @@ given a set of three arrays; an array of project ideas, an array of programming 
 
 Bonus Points: Add a lever like functionality
 
+Status: COMPLETED IN 6:55:50 ON 05/06/2023
+
