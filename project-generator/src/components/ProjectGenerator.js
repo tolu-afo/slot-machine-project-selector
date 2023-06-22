@@ -29,28 +29,28 @@ const shuffle = (array) => {
 const ideas = [
     'RPG Snake Game',
     '1v1 Programming',
-    'Twitch Chat Bot',
+    'create a blockchain',
     'Make Chess',
     'Weather App',
-    'Make a Music Player',
+    // 'Pacman'
 ]
 
 const languages = [
-    'Python',
+    'Nintendo Game Builder Garage',
     'Rust',
     'Carbon',
-    'TypeScript',
+    'Kotlin',
     'Elixir',
-    'Java',
+    // 'Java',
 ]
 
 const constraints = [
-    'Screen Upside Down',
+    // 'Screen Upside Down',
     'Every variable is the same word with a number attached',
-    'One File',
+    'No Resources',
     'No If/Else Statements',
     'Simple Data Structures Only',
-    'No Imports',
+    'everytime code errors do 10 squats'
 ]
 
 export default function ProjectGenerator () {
